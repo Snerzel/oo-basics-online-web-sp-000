@@ -7,6 +7,6 @@ def initialize(brand)
   end
 
   def cobble(condition)
-    @condition = condition
+    @condition = condition.new
   end
 end
