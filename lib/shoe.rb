@@ -6,7 +6,7 @@ def initialize(brand)
   @brand = brand
   end
 
-  def cobble(condition)
-    @condition = condition.new
+  def cobble
+    puts "The shoe has been repaired!"
   end
 end
